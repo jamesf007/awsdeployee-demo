@@ -17,6 +17,6 @@ public class GController {
 
 	@RequestMapping("/welcome")
 	public String firstPage() {
-		return "welcome1";
+		return "welcome to rest controller";
 	}
 }
